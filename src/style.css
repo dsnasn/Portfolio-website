@@ -741,3 +741,73 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* 标题留白调整 */
+.experience-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: #b19cd9;
+  /* 添加标题颜色以增强视觉效果 */
+}
+
+/* 分隔子标题 */
+.section-title {
+  font-size: 1.8em;
+  color: #d4b5f0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-bottom: 5px;
+  width: fit-content;
+  /* 根据文字自动调整宽度 */
+  border: none;
+  /* 移除下划线 */
+}
+
+/* 卡片样式 */
+.experience-card {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #b19cd9;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 悬浮效果 */
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(177, 156, 217, 0.6);
+}
+
+/* Logo 样式 */
+.experience-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+/* 描述左对齐 */
+.experience-description {
+  text-align: left;
+  color: #d1c4e9;
+}
+
+.experience-description h3,
+.experience-description h5 {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.experience-description p {
+  margin-top: 10px;
+  color: #d1c4e9;
+  line-height: 1.6;
+  text-align: left;
+  /* 确保段落左对齐 */
+}
