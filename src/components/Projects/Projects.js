@@ -6,6 +6,7 @@ import sentimentImg from "../../Assets/Projects/sentiment.png";
 import foodRecImg from "../../Assets/Projects/foodrec.png";     
 import breastCancerImg from "../../Assets/Projects/breastcancer.png";
 import spotifyDashboardImg from "../../Assets/Projects/spotify.png"; 
+import NHSDashboardImg from "../../Assets/Projects/dashboard.png"; 
 
 function Projects() {
   return (
@@ -54,9 +55,19 @@ function Projects() {
             <ProjectCard
               imgPath={spotifyDashboardImg}
               isBlog={false}
-              title="Spotify Music Trends Interactive Dashboard"
+              title="Spotify Music Trends Analysis with Tableau"
               description="Created an interactive Tableau dashboard analyzing Spotify music trends and user preferences."
               ghLink="https://github.com/dsnasn/Spotify-Trends-Dashboard"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NHSDashboardImg}
+              isBlog={false}
+              title="NHS Scotland Healthcare Analysis with Power BI"
+              description="Built an interactive Power BI dashboard to analyze NHS Scotland’s healthcare trends, resource allocation, and patient wait times."
+              ghLink="https://github.com/dsnasn/PowerBI-NHS-Dashboard"
             />
           </Col>
 
