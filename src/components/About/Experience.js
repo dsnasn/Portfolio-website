@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
+import logo0 from "../../Assets/Experience/uofg.jpg";
 import logo1 from "../../Assets/Experience/CNBM.png";
 import logo2 from "../../Assets/Experience/bytedance.png";
 import logo3 from "../../Assets/Experience/asiainfo.png";
@@ -13,6 +14,20 @@ function Experience() {
       <h1 className="experience-heading">Work <strong className="purple">Experience</strong></h1>
       
     <h2 className="section-title">Data Science Related Experience</h2>
+
+    <Row className="experience-card">
+    <Col md={2} className="experience-logo-container">
+        <img src={logo0} alt="Company 0 Logo" className="experience-logo" />
+    </Col>
+    <Col md={10} className="experience-description">
+        <h3>Research Assistant</h3>
+        <h5>the University of Glasgow</h5>
+        <p>
+        Supported UK-based analytics research by modeling IoT data flow and building live dashboards for real-world health logistics applications.
+        </p>
+    </Col>
+    </Row>
+
     <Row className="experience-card">
     <Col md={2} className="experience-logo-container">
         <img src={logo1} alt="Company 1 Logo" className="experience-logo" />
