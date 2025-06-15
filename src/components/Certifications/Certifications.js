@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Particle from "../Particle";
 import dp100 from "../../Assets/Projects/dp100.png";
 import dp203 from "../../Assets/Projects/dp203.png";
+import aws from "../../Assets/Projects/aws.png";
 import ibm from "../../Assets/Projects/ibm.png";
 import google from "../../Assets/Projects/google.png";
 import AI_ML_DS_udemy from "../../Assets/Projects/AI_ML_DS_udemy.jpg";
@@ -36,7 +37,7 @@ function Certifications() {
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://learn.microsoft.com/api/credentials/share/en-gb/JiahuiMa-7646/F2B82D69B1F78E24?sharingId" // 替换为实际的链接
+                  href="https://learn.microsoft.com/api/credentials/share/en-gb/JiahuiMa-7646/F2B82D69B1F78E24?sharingId" 
                   target="_blank"
                 >
                   <BsLink45Deg /> &nbsp; View Certificate
@@ -56,7 +57,7 @@ function Certifications() {
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://learn.microsoft.com/api/credentials/share/zh-cn/JiahuiMa-7646/972DADE8131F0AD8?sharingId" // 替换为实际的链接
+                  href="https://learn.microsoft.com/api/credentials/share/zh-cn/JiahuiMa-7646/972DADE8131F0AD8?sharingId" 
                   target="_blank"
                 >
                   <BsLink45Deg /> &nbsp; View Certificate
@@ -65,7 +66,27 @@ function Certifications() {
             </Card>
           </Col>
 
-                    <Col md={6} className="project-card">
+          <Col md={6} className="project-card">
+            <Card className="project-card-view">
+              <Card.Img variant="top" src={aws} alt="AWS Certified Cloud Practitioner" />
+              <Card.Body>
+                <Card.Title>AWS Certified Cloud Practitioner</Card.Title>
+                <Card.Text>
+                  This certification demonstrates foundational understanding of AWS cloud concepts, with relevance to data storage, analytics, and cloud-based machine learning workflows.
+                  <br />
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://www.credly.com/badges/59973e82-fd8c-4da5-9574-ef08eb4e8f25/linked_in_profile" 
+                  target="_blank"
+                >
+                  <BsLink45Deg /> &nbsp; View Certificate
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={6} className="project-card">
             <Card className="project-card-view">
               <Card.Img variant="top" src={ibm} alt="IBM Data Science" />
               <Card.Body>
